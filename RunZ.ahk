@@ -1627,7 +1627,7 @@ OpenPath(filePath)
     if (FileExist(g_Conf.Config.TCPath))
     {
         TCPath := g_Conf.Config.TCPath
-        Run, %TCPath% /O /A /L="%filePath%"
+        Run, %TCPath% /O /A /T /L="%filePath%"
     }
     else
     {
