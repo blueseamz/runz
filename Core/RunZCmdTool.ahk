@@ -102,6 +102,7 @@ Loop, %0%
 if (g_Conf.Config.SendToMenuSimpleMode)
 {
     ToolTip, 文件添加完毕，3 秒内生效
+    Run, %g_UserFileList%
     sleep 1500
     ExitApp
 }
