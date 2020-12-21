@@ -29,7 +29,7 @@ Session.vim
 *.exe
 Private
 SearchFileList.txt
-RunZ.ini
+
 .RunZ.ini.bak
 UserFunctions.ahk
 Doc
