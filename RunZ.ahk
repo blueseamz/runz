@@ -1605,7 +1605,7 @@ RunAndGetOutput(command)
     return result
 }
 
-RunWithCmd(command, onlyCmd = false)
+RunWithCmd(command, onlyCmd = true)
 {
     if (!onlyCmd && FileExist("c:\msys64\usr\bin\mintty.exe"))
     {
